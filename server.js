@@ -60,7 +60,7 @@ app.get('/projects', (req,res) => {
     res.render('projects.hbs', {
         pageTitle    : 'Projects Page',
         headerText   : 'Projects List',
-        projectsList : ['Weather App','Server App','Address Book App']
+        projectsList : ['Weather App','Server App','Address Book App','Heroku App']
     });
 });
 
