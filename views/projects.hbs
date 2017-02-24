@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{pagTitle}}</title>
+    </head>
+
+    <body>
+        {{> header}}
+        {{#each projectsList}}
+            <ul>
+                <li>{{this}}</li>
+            </ul>
+        {{/each}}
+        {{> footer}}
+    </body>
+</html>
