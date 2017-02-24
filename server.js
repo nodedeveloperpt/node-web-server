@@ -6,7 +6,7 @@ const hbs = require('hbs');
 const fs = require('fs');
 
 // Settings for Heroku Virtual Dynamic Port Assignment Or Local Development
-let port = process.env.port || 3000;
+let port = process.env.PORT || 3000;
 let app = express();
 
 hbs.registerPartials(__dirname + '/views/partials');
